@@ -1,0 +1,86 @@
+/**
+ * Начальные данные (стартовые товары).
+ * В практиках 3–4 мы используем in-memory массив (без БД).
+ * Студенты могут расширить схему полями: category, description, stock, rating, imageUrl и т.д.
+ */
+module.exports = [
+  {
+    id: "p1",
+    title: "Razer Boomslang 20th Anniversary Edition",
+    category: "Мышки",
+    description: "Самая дорогая мышь",
+    price: 150000,
+    stock: 1,
+  },
+  {
+    id: "p2",
+    title: "Умный глазок Ezviz DP2C",
+    category: "Дверные глазки",
+    description: "Умный дверной глазок",
+    price: 13000,
+    stock: 325,
+  },
+  {
+    id: "p3",
+    title: "МФУ лазерное Pantum",
+    category: "Лазерные МФУ",
+    description: "Самый дорогой принтер",
+    price: 1800000,
+    stock: 15,
+  },
+  {
+    id: "p4",
+    title: "Электросамокат Kugoo Kirin G5 черный",
+    category: "Электросамокаты",
+    description: "Самый дорогой самокат",
+    price: 280000,
+    stock: 500,
+  },
+  {
+    id: "p5",
+    title: "Электрогенератор дизельный Elitech ДЭС 12000ЕTМ",
+    category: "Электрогенераторы",
+    description: "Самый дорогой электрогенератор",
+    price: 400000,
+    stock: 1345,
+  },
+  {
+    id: "p6",
+    title: "6.51 Смартфон Coolpad CP12p 128 ГБ черный",
+    category: "Смартфоны",
+    description: "Самый дешевый смартфон",
+    price: 5000,
+    stock: 15,
+  },
+  {
+    id: "p7",
+    title: "Тепловая пушка дизельная Ballu BHDN-50",
+    category: "Дизельные тепловые пушки",
+    description: "Самая дорогая тепловая пушка",
+    price: 127000,
+    stock: 11233,
+  },
+  {
+    id: "p8",
+    title: "Портативная зарядная станция BLUETTI Elite 400 черный",
+    category: "Портативные аккумуляторы",
+    description: "Самый дорогой портативный аккумулятор",
+    price: 140000,
+    stock: 5,
+  },
+  {
+    id: "p9",
+    title: "Усилитель FSD audio PROFI 12K",
+    category: "Автоусилители и процессоры",
+    description: "Самый дорогой автоусилитель",
+    price: 79000,
+    stock: 112,
+  },
+  {
+    id: "p10",
+    title: "Телевизор Samsung MRE115MR95FXRU серебристый",
+    category: "Телевизоры",
+    description: "Самый дорогой телевизор",
+    price: 3000000,
+    stock: 2,
+  }]
