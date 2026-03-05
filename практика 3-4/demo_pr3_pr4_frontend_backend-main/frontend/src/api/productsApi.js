@@ -1,11 +1,5 @@
 import { api } from "./apiClient";
 
-/**
- * TODO (Практика 4):
- * Реализуйте функции работы с API.
- * Подсказка: используйте api.get/post/patch/delete и возвращайте data.
- */
-
 export async function getProducts() {
     return (await api.get('/products')).data;
 }

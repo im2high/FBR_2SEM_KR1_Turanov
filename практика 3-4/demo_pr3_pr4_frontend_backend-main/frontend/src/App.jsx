@@ -1,11 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { createProduct, deleteProduct, getProducts, updateProduct } from "./api/productsApi";
 
-/**
- * Практика 4 (заготовка).
- * Важно: это НЕ готовое решение. В файле api/productsApi.js стоят TODO.
- * Цель: подключить React к вашему Express API и выполнить базовый CRUD.
- */
+
 export default function App() {
   const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -83,12 +79,8 @@ export default function App() {
 
   return (
     <div style={{ maxWidth: 900, margin: "0 auto", padding: 24, fontFamily: "system-ui" }}>
-      <h1>Практика 4 — React + Express API</h1>
+      <h1>Практика 4/5 — React + Express API + SwaggerUI</h1>
 
-      <p style={{ color: "#555" }}>
-        Если видите ошибку <code>TODO: реализуйте ...</code>, значит вы ещё не реализовали функции в{" "}
-        <code>src/api/productsApi.js</code>.
-      </p>
 
       <section style={{ marginTop: 24, padding: 16, border: "1px solid #ddd", borderRadius: 12 }}>
         <h2 style={{ marginTop: 0 }}>Добавить товар</h2>
